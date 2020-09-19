@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Coding Project 2</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+        <div class="container text-capitalize">
+            <div class="row mx-0">
+                <nav class="col-12 navbar fixed-top d-flex navbar-dark" style="background-color: #4468b0;">
+
+                    <div class="col-12 d-flex pb-0 mb-0 nav-wrap">
+
+                        <div class="search-wrap col-4 offset-lg-2 offset-sm-0 offset-md-0 d-flex">
+                            <a class="navbar-brand mt-0 pt-0 mr-2" href="#"><i class="fab fa-facebook"></i></a>
+                                <form class="searchbox-navbar d-flex pr-0">
+                                    <input type="text" class="searchbox" placeholder="Search">
+                        
+                                    <div class="search-button" type=“submit>
+                                        <i class="fas fa-search pt-1"></i>
+                                    </div> <!--search-button-->
+                                </input>
+                            </form> <!--searchbox-navbar-->
+                        </div>
+
+                        <div class="navbar-icon offset-lg-1 col-lg-2 d-flex">
+
+                                <div class="hide-navbar d-flex">
+                                    <div class="profile-navbar text-white rounded pt-1 px-2 d-flex">
+                                        <img src="images/Aom.jpg" alt="..." height="20" width="20" class="avatar-navbar mr-2 rounded-circle">       
+                                        <h1>Aompiano</h1>
+                                    </div><!--profile-navbar-->
+                    
+                                    <div class="home-navbar text-white rounded font-weight-bolder pt-1 px-2 d-flex">
+                                    <h1>Home</h1>
+                                    </div> 
+                    
+                                    <div class="create-navbar text-white rounded font-weight-bolder pt-1 px-2 d-flex">
+                                    <h1>Create</h1>
+                                    </div>
+                                </div>           
+                
+                            <div class="row mobile-navbar-wrap d-lg-none d-md-none d-sm-block mr-lg-0 pt-0 mt-0 d-flex w-100">
+
+                                <ul class="col-12 mobile-user-menu d-flex">
+
+                                    <li class="col-2 text-center newspaper-active">
+                                        <i class="fas fa-newspaper text-white"></i>
+                                    </li>
+                                    <li class="col-2 text-center mobile-hover-menu">
+                                        <i class="fas fa-user-friends text-center"></i>
+                                    </li>
+                                    <li class="col-2 text-center mobile-hover-menu">
+                                        <i class="fab fa-facebook-messenger text-center"></i>
+                                    </li>
+                                    <li class="col-2 text-center mobile-hover-menu">
+                                        <i class="fas fa-bell text-center"></i>
+                                    </li>
+                                    <li class="col-2 text-center mobile-hover-menu">
+                                        <i class="fas fa-search text-reset text-center"></i>
+                                    </li>
+                                    <li class="col-2 text-center mobile-hover-menu">
+                                        <i class="fas fa-bars text-center"></i>
+                                    </li>
+                                </ul> <!--mobile-user-menu-->
+                            </div><!--mobile-navbar-wrap-->
+
+
+                            <div class="desktop-icon-navbar d-flex">
+
+                                    <ul class="user-menu ml-1 pl-0 ml-lg-3 mt-0 pt-0 d-flex">
+                                            <li>
+                                                <i class="fas fa-user-friends mr-3"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fab fa-facebook-messenger mr-3"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-bell"></i>
+                                            </li>
+                                        </ul> <!--user-menu-->
+                            
+                            
+                                        <ul class="setting-menu pl-3 mt-0 pt-0 d-flex">
+                                            <li>
+                                                <i class="fas fa-question-circle mr-3"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-caret-down"></i>
+                                            </li>
+                            
+                                        </ul>
+                            </div><!--desktop-icon-navbar-->
+                        
+                        </div> <!--navbar-icon-->
+
+                        
+                    </div><!--nav-wrap-->
+                </nav>
+            </div><!--row-->
+        
+        
+           <div class="row main-content" style="margin-top:55px;">
+                <nav class="col-lg-2 col-md-3 sidebar"> 
+                                <div class="sidebar-sticky position-fixed">
+                                  <ul class="nav flex-row flex-column">
+
+                                    <li class="nav-item userbox-sidebar d-flex">
+                                        <img src="images/Aom.jpg" alt="..." height="22" width="22" class="avatar-sidebar mx-1 rounded-circle">      
+                                        <h6>Aompiano..</h6>
+                                        <div class="dot"> <i class="fas fa-ellipsis-h"></i> </div>                          
+                                    </li><!--userbox-sidebar-->
+
+                                    <div class="universal-wrap-sidebar mt-2">
+
+                                        <li class="nav-item d-flex newfeedbox-sidebar">
+                                            <img src="images/newfeed-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 newfeed-icon">
+                                             <h6>New Feed</h6>
+                                             <div class="dot"> <i class="fas fa-ellipsis-h"></i> </div>
+                                        </li><!--newfeedbox-sidebar-->  
+                                    
+                                        <li class="nav-item d-flex messengerbox-sidebar">
+                                            <img src="images/messenger-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 messenger-icon">
+                                            <h6>Messenger</h6>
+                                        </li>
+                                        <li class="nav-item d-flex watchbox-sidebar">
+                                            <img src="images/watch-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 watch-icon">
+                                            <h6>Watch</h6>
+                                        </li>
+                                            <li class="nav-item d-flex marketplacebox-sidebar">
+                                            <img src="images/marketplace-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 marketplace-icon">
+                                            <h6>Marketplace</h6>
+                                        </li>                                   
+                                    </div><!--universal_leftmenu-->
+
+                                    <div class="apps-wrap-sidebar mt-2">
+                                        <div class="apps-header_leftmenu pl-1"> <h6>Explore</h6> </div>
+                                        <div class="apps-li-sidebar">
+
+                                            <li class="nav-item d-flex eventsbox-sidebar">
+                                                <img src="images/events-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 events-icon">
+                                                <h6>Events</h6> <div class="number-sidebar">4</div>
+                                            </li><!--eventsbox-sidebar-->
+
+                                            <li class="nav-item d-flex pagesbox-sidebar">
+                                                <img src="images/pages-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 pages-icon">
+                                                <h6>Pages</h6> <div class="number-sidebar">2</div>
+                                            </li><!--pagesbox-sidebar--> 
+
+                                            <li class="nav-item d-flex groupsbox-sidebar">
+                                                <img src="images/groups-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 groups-icon">
+                                                <h6>Groups</h6> <div class="number-sidebar">1</div>
+                                            </li><!--groupsbox-sidebar-->
+
+                                            <li class="nav-item d-flex savedbox-sidebar">
+                                                <img src="images/saved-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 saved-icon">
+                                                <h6>Saved</h6>
+                                            </li><!--savedsbox-sidebar-->
+
+                                            <li class="nav-item d-flex notesbox-sidebar">
+                                                <img src="images/notes-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 notes-icon">
+                                                <h6>Notes</h6>
+                                            </li><!--notesbox-sidebar-->
+
+                                            <details close="">
+                                                <summary> See more... </summary>
+                                                    <input hidden>
+                                                            <li class="nav-item d-flex ads-manager-sidebar">
+                                                                <img src="images/ads-manager-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 ads-manager-icon">
+                                                                <h6>Test</h6>
+                                                            </li>
+
+                                                            <li class="nav-item d-flex ads-manager-sidebar">
+                                                                <img src="images/ads-manager-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 ads-manager-icon">
+                                                                <h6>Test</h6>
+                                                            </li>
+                                                            
+                                                             <li class="nav-item d-flex ads-manager-sidebar">
+                                                                <img src="images/ads-manager-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 ads-manager-icon">
+                                                                <h6>Test</h6>
+                                                            </li>
+
+                                                            <li class="nav-item d-flex ads-manager-sidebar">
+                                                                <img src="images/ads-manager-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 ads-manager-icon">
+                                                                <h6>Test</h6>
+                                                            </li>
+
+                                                             <li class="nav-item d-flex ads-manager-sidebar">
+                                                                <img src="images/ads-manager-icon.png" alt="..." height="20" width="20" class="rounded-0 mx-1 ads-manager-icon">
+                                                                <h6>Test</h6>
+                                                            </li>
+
+                                                        </input>
+                                            </details>
+                                        </div><!--apps-li-sidebar-->
+                                    </div><!--apps-wrap-sidebar-->
+
+                                  </ul>
+                                </div><!--sidebar-sticky-->
+                    </nav>
+
+                <div class="col-lg-6 col-md-8 col-sm-12 pr-lg-2 ml-lg-2 ml-md-2 main">
+
+                            <div class="createpost-wrap bg-white rounded">
+                                <div class="createpost-head bg-light border pt-2 pl-3 pb-0 rounded-top"> <h1>Create Post</h1>  </div>
+                    
+                                <div class="createpost-body border-right border-left">
+                                    
+                                        <div class="createpost-board px-2 pt-3 d-flex">
+                                            <a href="#"> <img src="images/Aom.jpg" alt="..." height="40" width="40" class="avatar-createpost mx-lg-2 rounded-circle"></a>
+
+                                            <div class="form-group">
+                                                <input type="text" class="form-control px-0 py-0 mx-0 my-0 border-0 createpost-text" placeholder="What's on your mind, Aompiano?">
+                                            </div>
+                                            
+                                            <div class="createpost-board-mobile w-100 d-flex d-lg-none d-md-none d-sm-block d-block mt-1">
+                                                <div class="form-group-mobile w-100 pl-2 pr-2">
+                                                    <input type="text" class="form-control px-2 py-1 border-1 rounded-pill createpost-text-mobile" placeholder="What's on your mind?">
+                                                </div><!--form-group-mobile-->
+                                                <div class="upload-pic">
+                                                    <i class="far fa-images"></i>Photo
+                                                </div> 
+                                            </div><!--createpost-board-mobile-->
+
+                                        </div><!--createpost-board-->
+
+                                </div><!--createpost-body-->
+                    
+                                <div class="createpost-footer p-2 border border-top-0 rounded-bottom">
+                                    <div class="line pb-2 border-top"></div>
+                                      
+                                            <div class="button-wrap d-flex w-100">
+                                                
+                                                <button type="button" class="btn btn-sm btn-light mr-2 rounded-pill d-flex">
+                                                        <img src="images/photo-icon.png" alt="..." height="20" width="20" class="rounded-0 photo-icon">
+                                                        <div class="btn-text_createpost pl-2 pr-1 "> Photo/Video </div>
+                                                </button>
+
+                                                <button type="button" class="btn btn-sm btn-light mr-2 rounded-pill d-flex">
+                                                        <img src="images/tag-icon.png" alt="..." height="20" width="20" class="rounded-0 tag-icon">
+                                                        <div class="btn-text_createpost pl-2 pr-1"> Tag Friends </div>
+                                                </button>
+
+                                                <button type="button" class="btn btn-sm btn-light mr-2 rounded-pill d-flex">
+                                                        <img src="images/feeling-icon.png" alt="..." height="20" width="20" class="rounded-0 feeling-icon">
+                                                        <div class="btn-text_createpost pl-2 pr-1"> Feeling/Activ... </div>
+                                                </button>
+
+                                                <button type="button" class="btn btn-sm d-md-none btn-light mr-2 rounded-pill">
+                                                        <div class="others-icon_createpost px-2"> <i class="fas fa-ellipsis-h"></i> </div>
+                                                </button>
+                                            
+                                            </div><!--button-wrap-->
+                                    </div><!--createpost-footer-->
+                                </div><!--createpost-wrap-->
+                                
+
+                        <div class="mobile-story-wrap bg-white border rounded d-lg-none d-block mt-2">
+
+                            <div class="mobile-story-header d-flex pt-2">
+                                <div class="story-header W-100 px-2 text-black font-weight-bolder">
+                                    Stories
+                                </div><!--story-header-->
+
+                                <div class="story-header-text d-flex mr-2 ml-auto text-secondary">
+                                    <i class="far fa-clock mr-1"></i>
+                                    <a href="#" class="text-reset Archive">Your Archive</a>
+                                </div>
+                            </div><!--mobile-story-header-->
+
+                            <div class="scrolling-wrapper px-2">
+
+                                    <div class="story-card story-01 rounded pt-4">
+                                         <div class="story-border mx-auto"> <button type="button" class="rounded-circle border add-story" style="height:40px; width: 40px;"> <i class="fas text-primary fa-plus"></i> </button>
+                                         </div>
+                                         <div class="text-break"> Add to story</div>
+                                    </div>
+
+                                    <div class="story-card story-02 rounded pt-4">
+                                         <div class="story-border mx-auto"> <img src="images/Omo.png" alt="..." height="40" width="40" class="mobile-story-avatar rounded-circle"> </div>
+                                         Card
+                                    </div>
+
+                                    <div class="story-card story-03 rounded pt-4">
+                                         <div class="story-border mx-auto"> <img src="images/Omo.png" alt="..." height="40" width="40" class="mobile-story-avatar rounded-circle"> </div>
+                                         Card
+                                    </div>
+
+                                    <div class="story-card story-04 rounded pt-4">
+                                         <div class="story-border mx-auto"> <img src="images/Omo.png" alt="..." height="40" width="40" class="mobile-story-avatar rounded-circle"> </div>
+                                         Card
+                                    </div>
+
+                                    <div class="story-card story-05 rounded pt-4">
+                                         <div class="story-border mx-auto"> <img src="images/Omo.png" alt="..." height="40" width="40" class="mobile-story-avatar rounded-circle"> </div>
+                                         Card
+                                    </div>
+
+                                    <div class="story-card story-06 rounded pt-4">
+                                         <div class="story-border mx-auto"> <img src="images/Omo.png" alt="..." height="40" width="40" class="mobile-story-avatar rounded-circle mb-1"> </div>
+                                         Card
+                                    </div>
+                             </div>
+
+                        </div><!--mobile-story-wrap-->
+
+
+                        <div class="contents-box-wrap bg-white border rounded my-2 ">
+
+                            <div class="contents-header pt-3 pl-3 pb-2 border-bottom d-flex">
+                                <a href="#"> <img src="images/Omo.png" alt="..." height="40" width="40" class="Post-avatar mr-2 rounded-circle"></a>
+                                <div class="contents-header-user-info">
+
+                                    <div class="contents-header-username d-start"> อ้วนเอ๊ย </div>
+                                    
+                                    <div class="contents-header-details align-top d-inline-flex">
+                                        <a href="#" class="contents-header-time">53 mins</a>
+                                        <span class="point mx-1">.</span>
+                                        <i class="fas fa-globe-asia"></i>
+                                    </div>
+                                </div><!--contents-header-details-->
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div><!--contents-header-->
+                            
+
+                            <div class="contents-body">
+                                <img src="images/Post-content-01.jpg" alt="..." height="100%" width="100%" class="Post-content-01 border-bottom">
+                            </div>
+
+                            <div class="contents-footer px-2">
+
+                                <div class="row contents-footer-popularity mt-2 mb-2 mb-lg-3 mb-sm-2 d-flex">
+
+                                    <div class="contents-emoji-wrap mt-2 ml-3 d-flex">
+                                        <div class="like-emoji"></div>
+                                        <div class="love-emoji"></div>
+                                        <div class="haha-emoji"></div>
+                                        <a href="#" class="ml-1 emoji-counted">44</a>
+                                    </div>
+
+                                    <div class="pr-0 mr-3 pl-auto ml-auto float-right contents-counting d-flex">
+                                        <a href="#" class="mr-2 comment-counted">25 Comments</a>
+                                        <a href="#" class="share-counted">1.1K Shares</a>
+                                    </div>
+                                </div><!--contents-footer-popularity-->
+                                
+                                
+
+                                    <div class="line pb-2 border-top"></div>
+                                
+                                            <ul class="nav nav-pills pb-2 d-flex-inline nav-justified" role="tablist">
+                                                <li class="nav-item">
+                                                <a class="nav-link" id="pills-like-tab" data-toggle="pill" href="#pills-like" role="tab" aria-selected="true"> <i class="far fa-thumbs-up"></i> Like </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" id="pills-comment-tab" data-toggle="pill" href="#pills-comment" role="tab" aria-selected="false"> <i class="far fa-comment-alt"></i> Comment</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" id="pills-share-tab" data-toggle="pill" href="#pills-share" role="tab" aria-selected="false"> <i class="fas fa-share"></i> Share </a>
+                                                </li>
+                                            </ul>
+
+                            </div><!--contents-footer-->
+                                            
+                        </div><!--contents-box-wrap--> 
+                        
+                        <div class="contents-box-wrap bg-white border rounded my-2 ">
+
+                            <div class="contents-header-wrap pt-3 pl-3 pb-2 border-bottom">
+                            <div class="contents-header d-flex">
+
+                                <a href="#"> <img src="images/aom.jpg" alt="..." height="40" width="40" class="Post-avatar mr-2 rounded-circle"></a>
+                                <div class="contents-header-user-info">
+
+                                    <div class="contents-header-username d-start"> Aompiano </div>
+                                    
+                                    <div class="contents-header-details align-top d-inline-flex">
+                                        <a href="#" class="contents-header-time">53 mins</a>
+                                        <span class="point mx-1">.</span>
+                                        <i class="fas fa-globe-asia"></i>
+                                    </div>
+                                </div><!--contents-header-details-->
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div><!--contents-header-->
+
+                            <div class="contents-text">>/////////<</div> 
+
+                        </div><!--contents-header-wrap-->
+                            
+
+                            <div class="contents-body">
+                                <img src="images/Post-content-02.jpg" alt="..." height="100%" width="100%" class="Post-content-01 border-bottom">
+                            </div>
+
+                            <div class="contents-footer px-2">
+
+                                <div class="row contents-footer-popularity mt-2 mb-2 mb-lg-3 mb-sm-2 d-flex">
+
+                                    <div class="contents-emoji-wrap mt-2 ml-3 d-flex">
+                                        <div class="like-emoji"></div>
+                                        <div class="love-emoji"></div>
+                                        <div class="haha-emoji"></div>
+                                        <a href="#" class="ml-1 emoji-counted">112</a>
+                                    </div>
+
+                                    <div class="pr-0 mr-3 pl-auto ml-auto float-right contents-counting d-flex">
+                                        <a href="#" class="mr-2 comment-counted">37 Comments</a>
+                                        <a href="#" class="share-counted">1.3K Shares</a>
+                                    </div>
+                                </div><!--contents-footer-popularity-->
+                                
+                                
+
+                                    <div class="line pb-2 border-top"></div>
+                                
+                                            <ul class="nav nav-pills pb-2 d-flex-inline nav-justified" role="tablist">
+                                                <li class="nav-item">
+                                                <a class="nav-link" id="pills-like-tab" data-toggle="pill" href="#pills-like" role="tab" aria-selected="true"> <i class="far fa-thumbs-up"></i> Like </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" id="pills-comment-tab" data-toggle="pill" href="#pills-comment" role="tab" aria-selected="false"> <i class="far fa-comment-alt"></i> Comment</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" id="pills-share-tab" data-toggle="pill" href="#pills-share" role="tab" aria-selected="false"> <i class="fas fa-share"></i> Share </a>
+                                                </li>
+                                            </ul>
+
+                            </div><!--contents-footer-->
+                                            
+                        </div><!--contents-box-wrap--> 
+
+                </div><!--main-->
+           
+
+                <div class="col-lg-3 d-md-none d-lg-block px-0 ml-0 ads-wrap">
+
+                    <div class="story-wrap bg-white border rounded">
+
+                        <div class="story-header px-2 pt-2 d-flex">
+                            <h1>Stories</h1>
+                            <div class="story-header-text d-flex mr-0 ml-auto align-middle justify-content-end">
+                                <i class="far fa-clock mr-1"></i>
+                                <a href="#" class="text-reset Archive mr-1">Archive</a>
+                                <span>.</span>
+                                <a href="#" class="text-reset Settings ml-1">Settings</a>
+                            </div>
+                        </div><!--story-header-->
+
+                        <div class="story-body-wrap p-2">
+                            <div class="story-button mb-1 d-flex">
+                                    <button type="button" class="rounded-circle border add-story" ><i class="fas text-primary fa-plus"></i> </button>
+                                    <div class="story-button-text ml-2">
+                                        <a href="#" class="py-0 my-0 story-username"> <h6> Add to Your Story</h6> </a>
+                                        <div class="text-black-50 text-break story-timing">Share a photo, video or<br> write something </div>
+                                    </div>  
+                                </div><!--story-button-->
+        
+                            <div class="story-button mb-2 d-flex">
+                                <a href="#" ><img src="images/Omo.png" alt="..." height="50" width="50" class="story-avatar border rounded-circle"></a>
+                                <div class="story-button-text mt-2 ml-2">
+                                        <a href="#" class="py-0 my-0 story-username"> <h6>Chubby Omo</h6></a>
+                                        <div class="text-black-50 story-timing">8 hours ago</div>
+                                    </div>  
+                            </div><!--story-button-->
+
+                            <div class="story-button mb-2 d-flex">
+                                <a href="#" ><img src="images/Omo.png" alt="..." height="50" width="50" class="story-avatar border rounded-circle"></a>
+                                <div class="story-button-text mt-2 ml-2">
+                                        <a href="#" class="py-0 my-0 story-username"> <h6> The nerd guy </h6></a>
+                                        <div class="text-black-50 story-timing">2 hours ago</div>
+                                    </div>  
+                            </div><!--story-button-->
+
+                            <div class="story-button d-flex">
+                                <a href="#" ><img src="images/Omo.png" alt="..." height="50" width="50" class="story-avatar border rounded-circle"></a>
+                                <div class="story-button-text mt-2 ml-2">
+                                        <a href="#" class="py-0 my-0 story-username"><h6> With his fat </h6></a>
+                                        <div class="text-black-50 story-timing"> a few seconds ago</div>
+                                    </div>  
+                            </div><!--story-button-->
+
+                            <details close="">
+                                <summary> See more... </summary>
+                                    <input hidden>
+
+                                        <div class="story-button mb-2  d-flex">
+                                            <a href="#" ><img src="images/Omo.png" alt="..." height="50" width="50" class="story-avatar border rounded-circle"></a>
+                                            <div class="story-button-text mt-2 ml-2">
+                                                    <a href="#" class="py-0 my-0 story-username"><h6> ไปเที่ยวกัน </h6></a>
+                                                    <div class="text-black-50 story-timing"> a few seconds ago</div>
+                                                </div>  
+                                        </div><!--story-button-->
+
+                                        <div class="story-button mb-2 d-flex">
+                                            <a href="#" ><img src="images/Omo.png" alt="..." height="50" width="50" class="story-avatar border rounded-circle"></a>
+                                            <div class="story-button-text mt-2 ml-2">
+                                                    <a href="#" class="py-0 my-0 story-username"><h6> เค้าเหงา </h6></a>
+                                                    <div class="text-black-50 story-timing"> a few seconds ago</div>
+                                                </div>  
+                                        </div><!--story-button-->
+                                        
+                                        <div class="story-button d-flex">
+                                            <a href="#" ><img src="images/Omo.png" alt="..." height="50" width="50" class="story-avatar border rounded-circle"></a>
+                                            <div class="story-button-text mt-2 ml-2">
+                                                    <a href="#" class="py-0 my-0 story-username"><h6> and also miss u </h6></a>
+                                                    <div class="text-black-50 story-timing"> a few seconds ago</div>
+                                                </div>  
+                                        </div><!--story-button-->
+
+                                    </input>
+                            </details>
+
+                        </div><!--story-body-wrap-->
+
+                    </div><!--story-wrap-->
+
+                    <div class="birthday-wrap bg-white mt-2 border rounded">
+
+                        <div class="m-2 d-flex birthday-box"> 
+                            <img src="images/brithday-icon.png" height="18" width="18" class="ml-1 my-0 py-0 brithday-icon">
+                            <p class="pl-2 mr-1 text-black my-0 py-0 brithday-Name">น้องโอโม่นั้นโก้จริงๆ</p>
+                            <p class="text-black-50 my-0 py-0 brithday-text">'s birthday is today</p>
+                        </div>
+
+                    </div><!--birthday-wrap-->
+
+                </div><!--ads-wrap-->
+
+        </div><!--row-->
+        </div><!--container-->
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
